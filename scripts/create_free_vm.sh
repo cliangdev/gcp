@@ -12,7 +12,7 @@ MACHINE_TYPE="e2-micro" # Free tier eligible machine type
 IMAGE_FAMILY="cos-stable"
 IMAGE_PROJECT="cos-cloud"
 BOOT_DISK_SIZE="30GB" # Free tier eligible boot disk size
-TAGS="http-server,https-server,$INSTANCE_NAME"
+TAGS="http-server,https-server"
 NETWORK="default"
 SUBNET="default"
 
